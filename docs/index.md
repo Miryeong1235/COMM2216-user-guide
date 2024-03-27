@@ -1,29 +1,50 @@
-# Home
+
+# MySQL starting guide
 ## Introduction
-- Hello👋MySQLとは何
-- 何のために使うものか
+
+Hello👋
+
+This documentation guides you setting up your MySQL schema. We are going to explain how to create a schema, how to create test tables, and how to write SELECT statements to retrieve information from tables. We also provide sample SQL statements, so you can use MySQL by yourself and run queries without any prior knowledge.
+
+MySQL is an open-source relational database provided by Oracle. “SQL” stands for “Structured Query Language”. SQL is designed for data definition, data manipulation, and data control, powerful enough to retrieve any piece of data from a database.
+
+A relational database stores data in separate tables rather than putting all the data in one big storeroom. The database structure is organized into physical files optimized for speed. 
+MySQL powers many most accessed applications, including Facebook, Twitter, Netflix, Uber, Airbnb, Shopify, and Booking.com. 
+
+For more details, see [here](https://www.oracle.com/ca-en/mysql/what-is-mysql/)
+
 
 ## Intended users
-- New BCIT CST Term 2 students
-- Beginner developers who need to set up SQL for an academic project.
+This documentation is targeted towards the following users:
 
-## Software Requirements
-- MySQL (versionを書く。ダウンロードしている前提)
+- New BCIT CST Term 2 students who want to start using MySQL.
+- Beginner developers who need to set up a MySQL database for an academic project.
 
-# Welcome to MkDocs
+## Software requirements
+Before proceeding, ensure you have MySQL(v8.0.x) community installed. MySQL community is a freely downloadable version of MySQL.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+- For Windows, download from [here](https://dev.mysql.com/downloads/mysql/)
+- For Mac, download from [here](https://dev.mysql.com/downloads/installer/)
 
-## Commands
+## Procedures overview
+The main sections of the documentation are summarized below:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+1. Task 1 (replace it later)
+1. Task 2 (replace it later)
+1. Task 3 (replace it later)
 
-## Project layout
+## Typographical conventions
+We provide SQL statements in the following code blocks:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## Notes and warning messages
+Throughout the documentation, we will use message blocks to notify you of relevant information.
+
+Warning (sample here)
+Specifies content that must be read before proceeding. 
+
+Info (sample here)
+Indicated additional information or tips.
+
+Success (sample here)
+Indicated what success looks like.
