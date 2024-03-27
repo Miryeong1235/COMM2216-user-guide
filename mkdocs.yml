@@ -3,10 +3,6 @@ theme:
   name: material
 
 
-
-
-
-
 extra:
   social:
     - icon: fontawesome/brands/github
