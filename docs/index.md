@@ -44,11 +44,14 @@ We provide SQL statements in the following code blocks:
 ## Notes and warning messages
 Throughout the documentation, we will use message blocks to notify you of relevant information.
 
-Warning (sample here)
-Specifies content that must be read before proceeding. 
+!!! warning
 
-Info (sample here)
-Indicated additional information or tips.
+    Specifies content that must be read before proceeding. 
 
-Success (sample here)
-Indicated what success looks like.
+!!! info
+
+    Indicated additional information or tips.
+
+!!! success
+
+    Indicated what success looks like.
