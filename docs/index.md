@@ -21,17 +21,21 @@ This documentation is targeted towards the following users:
 - Beginner developers who need to set up a MySQL database for an academic project.
 
 ## Software requirements
-Before proceeding, ensure you have MySQL(v8.0.x) community installed. MySQL community is a freely downloadable version of MySQL.
+Before proceeding, ensure you have following installed.
+- MySQL community (v8.0.x)
+    - For Windows, download from [here](https://dev.mysql.com/downloads/mysql/)
+    - For Mac, download from [here](https://dev.mysql.com/downloads/installer/)
+- MySQL workbench
+    - Download from [here](https://dev.mysql.com/downloads/workbench/)
 
-- For Windows, download from [here](https://dev.mysql.com/downloads/mysql/)
-- For Mac, download from [here](https://dev.mysql.com/downloads/installer/)
+MySQL community is a freely downloadable version of MySQL. MySQL workbench is the official graphic user interface (GUI) tool for MySQL.
 
 ## Procedures overview
 The main sections of the documentation are summarized below:
 
-1. Task 1 (replace it later)
-1. Task 2 (replace it later)
-1. Task 3 (replace it later)
+1. Create a new schema
+1. Create test tables
+1. Extract data with SELECT statements
 
 ## Typographical conventions
 We provide SQL statements in the following code blocks:
