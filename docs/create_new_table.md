@@ -41,7 +41,7 @@ You should have a schema created by following [the previous section](/docs/task1
 ![action output](/img/action_output.png)
 
 
-6. Right click on the schema you created and select [Refresh All] to refresh the schema.
+6. Right-click on the schema you created and select "Refresh All" to refresh the schema.
 <img src="/img/refresh_all.png" width="50%">
 7. Click the triangle to see a table list you have created.
 <img src="/img/after_create_table.png" width="50%">
@@ -61,13 +61,16 @@ You should have a schema created by following [the previous section](/docs/task1
 ??? example "Example code for population"
     a
 
-2. Click a left thunder icon to run the queries in the same manner. You only have to run the queries once.
+2. Click a left thunder icon to run the queries in the same manner.
 
-!!! info
-    You will see the status of queries in Action Output. Green check marks mean good, yellow triangles mean warning. Red is error.
+!!! warning
+    You only have to run the queries once.
 
-3. Right click on the schema you created and select [Refresh All] to refresh the schema.
+
+You will see the status of queries in Action Output. Green check marks mean good, yellow triangles mean warning. Red is error.
+
+3. Right-click on the schema you created and select "Refresh All" to refresh the schema.
 
 !!! success
 
-    Now you successfully created a new table.
+    Now you successfully created new tables.
