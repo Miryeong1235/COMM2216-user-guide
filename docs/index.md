@@ -22,6 +22,7 @@ This documentation is targeted towards the following users:
 
 ## Software requirements
 Before proceeding, ensure you have following installed.
+
 - MySQL community (v8.0.x)
     - For Windows, download from [here](https://dev.mysql.com/downloads/mysql/)
     - For Mac, download from [here](https://dev.mysql.com/downloads/installer/)
@@ -39,6 +40,8 @@ The main sections of the documentation are summarized below:
 
 ## Typographical conventions
 We provide SQL statements in the following code blocks:
+
+code blocks here
 
 
 ## Notes and warning messages
