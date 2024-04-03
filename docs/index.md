@@ -42,7 +42,8 @@ The main sections of the documentation are summarized below:
 ## Typographical conventions
 We provide SQL statements in the following code blocks:
 
-code blocks here
+??? example "Sample Code"
+    sample SQL code here
 
 
 ## Notes and warning messages
