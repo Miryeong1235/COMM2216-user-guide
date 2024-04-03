@@ -1,10 +1,3 @@
-CREATE TABLE `Owner` (
-  `ownerID` int PRIMARY KEY, 
-  `ownerName` varchar(64) DEFAULT NULL,
-  `contactNumber` varchar(20) DEFAULT NULL,
-  `city` varchar(20) DEFAULT NULL
-);
-
 INSERT INTO Owner (ownerID, ownerName, contactNumber, city) VALUES 
 (1, 'John Doe', '+1 (123) 456-7890', 'New York'),
 (2, 'Alice Smith', '+1 (234) 567-8901', 'Los Angeles'),
@@ -14,15 +7,6 @@ INSERT INTO Owner (ownerID, ownerName, contactNumber, city) VALUES
 (6, 'Emma Martinez', '+1 (678) 901-2345', 'Phoenix'),
 (7, 'Olivia Davis', '+1 (789) 012-3456', 'San Antonio');
 
-CREATE TABLE `Dog` (
-  `registerID` int PRIMARY KEY,
-  `dogName` varchar(64) DEFAULT NULL,
-  `dob` date DEFAULT NULL,
-  `isFemale` bool DEFAULT true,
-  `breed` char(64) DEFAULT NULL,
-  `ownerID` int NOT NULL,
-   FOREIGN KEY (ownerID) REFERENCES Owner(ownerID)
-);
 
 INSERT INTO `Dog` (`registerID`, `dogName`, `dob`, `isFemale`, `breed`, `ownerID`) VALUES
 (1, 'Max', '2021-05-15', false, 'Dachshund', 1),
@@ -37,15 +21,6 @@ INSERT INTO `Dog` (`registerID`, `dogName`, `dob`, `isFemale`, `breed`, `ownerID
 (10, 'Molly', '2022-01-10', true, 'Border Collie', 1);
 
 
-CREATE TABLE `Trainer` (
-  `trainerID` int PRIMARY KEY,
-  `trainerName` varchar(64) DEFAULT NULL,
-  `contactNumber` varchar(20) DEFAULT NULL,
-  `email` varchar(64) DEFAULT NULL,
-  `specialization` varchar(20) DEFAULT NULL
-);
-
-
 INSERT INTO Trainer (trainerID, trainerName, contactNumber, email, specialization) VALUES 
 (201, 'Sarah Johnson', '+1 (111) 222-3333', 'sarah@example.com', 'Agility'),
 (202, 'Michael Brown', '+1 (222) 333-4444', 'michael@example.com', 'Behavioral'),
@@ -54,19 +29,6 @@ INSERT INTO Trainer (trainerID, trainerName, contactNumber, email, specializatio
 (205, 'Jessica Martinez', '+1 (555) 666-7777', 'jessica@example.com', 'Obedience'),
 (206, 'Ryan Thomas', '+1 (666) 777-8888', 'ryan@example.com', 'Agility'),
 (207, 'Lauren Harris', '+1 (777) 888-9999', 'lauren@example.com', 'Behavioral');
-
-
-
-CREATE TABLE `Training` (
-  `trainingID` int PRIMARY KEY,
-  `trainerID` int DEFAULT NULL,
-  `dogRegisterID` int DEFAULT NULL,
-  `trainingType` varchar(50) DEFAULT NULL,
-  `startDate` date DEFAULT NULL,
-  `endDate` date DEFAULT NULL,
-   FOREIGN KEY (dogRegisterID) REFERENCES Dog(registerID),
-   FOREIGN KEY (trainerID) REFERENCES Trainer(trainerID)
-);
 
 
 INSERT INTO Training (trainingID, trainerID, dogRegisterID, trainingType, startDate, endDate) VALUES 
