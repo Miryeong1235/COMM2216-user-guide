@@ -14,7 +14,8 @@ In this section, you will create a new table in your local instance. This step t
 !!! info
     If you don't do this, you might mistakenly run queries on the wrong schema!
 2. Click "File" > "New Query tab" to open a new query tab
-3. Write queries to create tables on the editor.
+3. Write queries to create tables on the editor. If you want to use SQL file, click the SQL file button from task bar.
+![run queries](/img/Import_SQLfile.png)
 4. Write queries to create constraints on the editor.
 !!! info
     If you want to crete test tables, you can use the sample query below.
