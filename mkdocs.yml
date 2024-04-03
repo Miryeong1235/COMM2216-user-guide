@@ -2,13 +2,13 @@ site_name: MySQL instructions
 theme:
   name: material
 
-  nav:
-    - Home: index.md
-    - Create a new schema: task1.md
-    - Create sample tables: create_new_table.md
-    - Extract data with SELECT statements: task3.md
-    - Troubleshooting: troubleshooting.md
-    - Glossary: glossary.md
+nav:
+  - Home: index.md
+  - Create a new schema: task1.md
+  - Create sample tables: create_new_table.md
+  - Extract data with SELECT statements: task3.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
 
 
 extra:
