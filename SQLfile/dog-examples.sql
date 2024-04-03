@@ -1,3 +1,19 @@
+CREATE TABLE `Owner` (
+  `ownerID` int PRIMARY KEY, 
+  `ownerName` varchar(64) DEFAULT NULL,
+  `contactNumber` varchar(20) DEFAULT NULL,
+  `city` varchar(20) DEFAULT NULL
+);
+
+INSERT INTO Owner (ownerID, ownerName, contactNumber, city) VALUES 
+(1, 'John Doe', '+1 (123) 456-7890', 'New York'),
+(2, 'Alice Smith', '+1 (234) 567-8901', 'Los Angeles'),
+(3, 'Michael Johnson', '+1 (345) 678-9012', 'Chicago'),
+(4, 'Emily Brown', '+1 (456) 789-0123', 'Houston'),
+(5, 'David Wilson', '+1 (567) 890-1234', 'Philadelphia'),
+(6, 'Emma Martinez', '+1 (678) 901-2345', 'Phoenix'),
+(7, 'Olivia Davis', '+1 (789) 012-3456', 'San Antonio');
+
 CREATE TABLE `Dog` (
   `registerID` int PRIMARY KEY,
   `dogName` varchar(64) DEFAULT NULL,
@@ -8,7 +24,7 @@ CREATE TABLE `Dog` (
    FOREIGN KEY (ownerID) REFERENCES Owner(ownerID)
 );
 
-INSERT INTO `Dog` (`registerID`, `dogName`, `dob`, `isFemale`, `breed`) VALUES
+INSERT INTO `Dog` (`registerID`, `dogName`, `dob`, `isFemale`, `breed`, `ownerID`) VALUES
 (1, 'Max', '2021-05-15', false, 'Dachshund', 1),
 (2, 'Bella', '2018-05-20', true, 'Golden Retriever', 2),
 (3, 'Charlie', '2019-09-10', false, 'Poodle', 3),
@@ -19,25 +35,6 @@ INSERT INTO `Dog` (`registerID`, `dogName`, `dob`, `isFemale`, `breed`) VALUES
 (8, 'Daisy', '2019-04-30', true, 'Boxer', 2),
 (9, 'Rocky', '2016-08-17', false, 'Pug', 7), 
 (10, 'Molly', '2022-01-10', true, 'Border Collie', 1);
-
-
-
-CREATE TABLE `Owner` (
-  `ownerID` int PRIMARY KEY, 
-  `ownerName` varchar(64) DEFAULT NULL,
-  `contactNumber` varchar(20) DEFAULT NULL,
-  `city` varchar(20) DEFAULT NULL
-);
-
-INSERT INTO Owner (ownerID, dogRegisterID, ownerName, contactNumber, city) VALUES 
-(1, 'John Doe', '+1 (123) 456-7890', 'New York'),
-(2, 'Alice Smith', '+1 (234) 567-8901', 'Los Angeles'),
-(3, 'Michael Johnson', '+1 (345) 678-9012', 'Chicago'),
-(4, 'Emily Brown', '+1 (456) 789-0123', 'Houston'),
-(5, 'David Wilson', '+1 (567) 890-1234', 'Philadelphia'),
-(6, 'Emma Martinez', '+1 (678) 901-2345', 'Phoenix'),
-(7, 'Olivia Davis', '+1 (789) 012-3456', 'San Antonio');
-
 
 
 CREATE TABLE `Trainer` (
@@ -68,11 +65,11 @@ CREATE TABLE `Training` (
   `startDate` date DEFAULT NULL,
   `endDate` date DEFAULT NULL,
    FOREIGN KEY (dogRegisterID) REFERENCES Dog(registerID),
-   FOREIGN KEY (trainingID) REFERENCES Trainer(trainingID)
+   FOREIGN KEY (trainerID) REFERENCES Trainer(trainerID)
 );
 
 
-INSERT INTO Training (trainerID, dogRegisterID, trainingID, trainingType, startDate, endDate) VALUES 
+INSERT INTO Training (trainingID, trainerID, dogRegisterID, trainingType, startDate, endDate) VALUES 
 (1, 201, 1, 'Obedience', '2023-05-10', '2023-05-24'), 
 (2, 202, 2, 'Behavioral', '2023-06-02', '2023-06-16'), 
 (3, 203, 3, 'Obedience', '2023-06-15', '2023-06-29'),

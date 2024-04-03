@@ -23,6 +23,13 @@ In this section, you will create a new table in your local instance. This step t
 
 5. Click a left thunder icon to run the queries.
 ![run queries](/img/run_query.png)
+
+!!! info
+    You will see the status of queries in Action Output. Green check marks mean good, yellow triangles mean warning. Red is error.
+
+!!! warning
+
+    You only have to run the queries once.
 6. Right click on the schema you created and select [Refresh All] to refresh the schema.
 7. Click the triangle to see a table list you have created.
 8. Close the editor tab where you wrote the queries.
