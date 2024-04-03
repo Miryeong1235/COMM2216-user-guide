@@ -3,10 +3,11 @@
 ## Introduction
 
 Hello👋
-
 This documentation guides you setting up your MySQL schema. We are going to explain how to create a schema, how to create test tables, and how to write SELECT statements to retrieve information from tables. We also provide sample SQL statements, so you can use MySQL by yourself and run queries without any prior knowledge.
 
-MySQL is an open-source relational database provided by Oracle. “SQL” stands for “Structured Query Language”. SQL is designed for data definition, data manipulation, and data control, powerful enough to retrieve any piece of data from a database.
+
+### About SQL and relational database
+“SQL” stands for “Structured Query Language”. SQL is designed for data definition, data manipulation, and data control, powerful enough to retrieve any piece of data from a database. MySQL is an open-source relational database provided by Oracle. 
 
 A relational database stores data in separate tables rather than putting all the data in one big storeroom. The database structure is organized into physical files optimized for speed. 
 MySQL powers many most accessed applications, including Facebook, Twitter, Netflix, Uber, Airbnb, Shopify, and Booking.com. 
