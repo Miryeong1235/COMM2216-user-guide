@@ -1,4 +1,13 @@
 site_name: MySQL instructions
+
+nav:
+  - Home: index.md
+  - Create a schema: task1.md
+  - Create new table: create_new_table.md
+  - Write SELECT statement: task3.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+
 theme:
   name: material
 
