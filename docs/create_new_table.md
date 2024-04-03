@@ -23,6 +23,9 @@ This step takes only a few minutes.
 
 <a href="/SQLfile/dog-examples-table.sql" style="background-color: #4CAF50; color: white; padding: 12px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 4px;">Download SQL file</a>
 
+??? example
+    a
+
 5. Click a left thunder icon to run the queries.
 ![run queries](/img/run_query.png)
 
