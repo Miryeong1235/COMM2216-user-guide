@@ -1,13 +1,4 @@
 site_name: MySQL instructions
-
-nav:
-  - Home: index.md
-  - Create a schema: task1.md
-  - Create test tables: task2.md
-  - Extract data with SELECT statements: task3.md
-  - Troubleshooting: troubleshooting.md
-  - Glossary: glossary.md
-
 theme:
   name: material
 
