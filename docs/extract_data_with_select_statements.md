@@ -64,7 +64,6 @@ FROM table1;
 1. Copy and paste the sample query.
 
 !!! example "Sample query"
-    This statement is to select all data from Dog table.
     ```
     SELECT * 
     FROM Dog;
@@ -79,7 +78,6 @@ FROM table1;
 1. Copy and paste the sample query.
 
 !!! example "Sample query"
-    This statement is to select all data from Dog table.
     ``` sql
     SELECT * 
     FROM Dog
@@ -94,11 +92,22 @@ FROM table1;
 1. Copy and paste the sample query.
 
 !!! example "Sample query"
-    This statement is to select all data from Dog table.
     ``` sql
     SELECT specialization, count(*) AS number_of_trainers
     FROM Trainer
     GROUP BY specialization;
+    ```
+
+1. Click the left thunder icon to run the query.
+
+### Getting the combination of dogs and owners
+1. Copy and paste the sample query.
+
+!!! example "Sample query"
+    ``` sql
+    SELECT dogName, ownerName
+    FROM Dog
+    JOIN `Owner` ON Dog.ownerID = `Owner`.ownerID;
     ```
 
 1. Click the left thunder icon to run the query.
