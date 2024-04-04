@@ -11,6 +11,45 @@ With SELECT statements, you can do the following:
 
 We will cover these operations with sample queries.
 
+## Basic syntax
+
+We will introduce the basic syntax for SELECT statements needed for data extraction. For more information, you can refer to [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html).
+
+### Selecting columns
+
+In SELECT statements, you can select columns to be shown in the result by listing the column name. The result of the query below only shows column1 and column2 for all data in table1. If you want to show all columns, use `*` instead of the column names.
+
+``` sql
+SELECT column1, column2
+FROM table1;
+```
+
+### Adding conditions
+
+In SELECT statements, you can add conditions with `WHERE` clause. The result of the query below shows only data with a value 1 in column1.
+
+``` sql
+SELECT * 
+FROM table1 
+WHERE column1 = 1;
+```
+
+### Sorting
+In SELECT statements, you can sort the result with `ORDER BY` clause.shows data in table1 in an ascending order by column1. If you want to sort the result with a descending order, add `DESC` after `ORDER BY` clause like `ORDER BY column1 DESC`.
+
+``` sql
+SELECT * 
+FROM table1 
+ORDER BY column1;
+```
+
+### Aggregation
+For aggregation, you can use aggregation functions such as `SUM()` for calculating a total value, `COUNT()` for counting the number of rows, `AVG()` for calculating an average value. This query below returns the number of rows and the total added value of column1.
+``` sql
+SELECT SUM(column1), COUNT(column1)
+FROM table1;
+```
+
 ## Preparation
 
 1. Open a new query tab by clicking "File" > "New Query Tab"
@@ -20,37 +59,46 @@ We will cover these operations with sample queries.
     Now you are ready to write queries.
 
 ## Operations
-### SELECT all dogs in dog table
+### Extracting all dogs in Dog table
 
-1. Copy  and paste the code.
-1. Click the left thunder icon to run the query.
-!!! info
+1. Copy and paste the sample query.
 
-    In SELECT statements, you can select columns to be shown in the result by listing the column name.
-    `SELECT column1, column2 FROM table1` shows only column1 and column2 for all data in table1. If you want to show all columns, use `SELECT * FROM table1`.
+!!! example "Sample query"
+    This statement is to select all data from Dog table.
+    ```
+    SELECT * 
+    FROM Dog;
+    ```
 
-### SELECT male dogs in dog table
-
-1. Copy  and paste the code.
-1. Click the left thunder icon to run the query.
-
-!!! info
-
-    In SELECT statements, you can add conditions with WHERE clause.
-    `SELECT * FROM table1 WHERE column1 = 1` shows only data with a value 1 in column1.
-
-
-### SELECT male dogs which were born before 2015  in dog table
-
-1. Copy  and paste the code.
 1. Click the left thunder icon to run the query.
 
-### SELECT male dogs older than 3 years old sorted by their name in dog table
 
-1. Copy  and paste the code.
+
+### Extracting male dogs born before 2020
+
+1. Copy and paste the sample query.
+
+!!! example "Sample query"
+    This statement is to select all data from Dog table.
+    ``` sql
+    SELECT * 
+    FROM Dog
+    WHERE isFemale = 0 AND dob < '2020-01-01';
+    ```
+
+
 1. Click the left thunder icon to run the query.
 
-!!! info
+### Getting the number of trainers grouped by their specialization
 
-    In SELECT statements, you can sort the result with ORDER BY clause.
-    `SELECT * FROM table1 ORDER BY column1` shows data in table1 in an ascending order by column1. If you want to sort the result with a descending order, add `DESC` after `ORDER BY` clause like `ORDER BY column1 DESC`.
+1. Copy and paste the sample query.
+
+!!! example "Sample query"
+    This statement is to select all data from Dog table.
+    ``` sql
+    SELECT specialization, count(*) AS number_of_trainers
+    FROM Trainer
+    GROUP BY specialization;
+    ```
+
+1. Click the left thunder icon to run the query.
