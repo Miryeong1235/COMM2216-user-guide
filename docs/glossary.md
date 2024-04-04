@@ -1,7 +1,8 @@
 ## Glossary
 
-| Term         | Definition |
-|--------------|------------|
+|  Term      　      | Definition　 |
+|--------------------|----------------|
+| SQL statement |   A command used to perform various operations on a database. Examples of SQL statements include SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE, and DROP TABLE. |
 | Schema        |  A collection of database objects, such as tables, views, indexes, and constraints, organized and grouped together. It represents the overall structure or blueprint of the database.  |
 | Table       |   The basic unit of data storage. Data is stored in rows and columns.  |
 | Query       |   Used to retrieve data from tables  |
