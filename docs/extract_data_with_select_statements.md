@@ -63,11 +63,11 @@ FROM table1;
 
 1. Copy and paste the sample query.
 
-!!! example "Sample query"
-    ```
-    SELECT * 
-    FROM Dog;
-    ```
+    !!! example "Sample query"
+        ```
+        SELECT * 
+        FROM Dog;
+        ```
 
 1. Click the left thunder icon to run the query.
 
@@ -77,12 +77,12 @@ FROM table1;
 
 1. Copy and paste the sample query.
 
-!!! example "Sample query"
-    ``` sql
-    SELECT * 
-    FROM Dog
-    WHERE isFemale = 0 AND dob < '2020-01-01';
-    ```
+    !!! example "Sample query"
+        ``` sql
+        SELECT * 
+        FROM Dog
+        WHERE isFemale = 0 AND dob < '2020-01-01';
+        ```
 
 
 1. Click the left thunder icon to run the query.
@@ -91,23 +91,23 @@ FROM table1;
 
 1. Copy and paste the sample query.
 
-!!! example "Sample query"
-    ``` sql
-    SELECT specialization, count(*) AS number_of_trainers
-    FROM Trainer
-    GROUP BY specialization;
-    ```
+    !!! example "Sample query"
+        ``` sql
+        SELECT specialization, count(*) AS number_of_trainers
+        FROM Trainer
+        GROUP BY specialization;
+        ```
 
 1. Click the left thunder icon to run the query.
 
 ### Getting the combination of dogs and owners
 1. Copy and paste the sample query.
 
-!!! example "Sample query"
-    ``` sql
-    SELECT dogName, ownerName
-    FROM Dog
-    JOIN `Owner` ON Dog.ownerID = `Owner`.ownerID;
-    ```
+    !!! example "Sample query"
+        ``` sql
+        SELECT dogName, ownerName
+        FROM Dog
+        JOIN `Owner` ON Dog.ownerID = `Owner`.ownerID;
+        ```
 
 1. Click the left thunder icon to run the query.
