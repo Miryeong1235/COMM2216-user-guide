@@ -12,7 +12,7 @@ nav:
   - Home: index.md
   - Create a new schema: create_new_schema.md
   - Create sample tables: create_new_table.md
-  - Extract data with SELECT statements: extract_data_with_select_statements.md
+  - Retrieve information from tables: retrieve_information_from_tables.md
   - Troubleshooting: troubleshooting.md
   - Glossary: glossary.md
 
