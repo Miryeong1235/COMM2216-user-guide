@@ -43,7 +43,9 @@ The main sections of the documentation are summarized below:
 We provide SQL statements in the following code blocks:
 
 ??? example "Sample Code"
-    sample SQL code here
+    ``` SQL
+    <!-- sample SQL code here -->
+    ```
 
 
 ## Notes and warning messages
