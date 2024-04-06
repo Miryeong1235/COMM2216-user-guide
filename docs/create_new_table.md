@@ -11,7 +11,7 @@ You should have a schema created by following [the previous section](/docs/creat
 ## Create new tables
 
 1. Right-click on the schema you created, and choose "Set as Default Schema".
-![set default schema](../img/default_schema.png)
+![set default schema](img/default_schema.png)
 
     !!! warning
 
@@ -19,7 +19,7 @@ You should have a schema created by following [the previous section](/docs/creat
         
 2. Click "File" > "New Query tab" to open a new query tab.
 3. Write queries to create tables on the editor. If you want to use SQL file, click the SQL file button from the task bar.
-![import SQLfile](../img/import_SQLfile.png)
+![import SQLfile](img/import_SQLfile.png)
 
 1. Write queries to create constraints on the editor.
 
@@ -66,7 +66,7 @@ You should have a schema created by following [the previous section](/docs/creat
         ```
 
 5. Click a left thunder icon to run the queries.
-![run queries](../img/run_query.png)
+![run queries](img/run_query.png)
 
     !!! warning
 
@@ -77,7 +77,7 @@ You should have a schema created by following [the previous section](/docs/creat
         Green check marks mean good, yellow triangles mean warning. Red is error.
 
 
-    ![action output](../img/action_output.png)
+    ![action output](img/action_output.png)
 
 
 6. Right-click on the schema you created and select "Refresh All" to refresh the schema.
