@@ -3,6 +3,10 @@ theme:
   name: material
   features:
       - toc.integrate
+      - content.code.copy
+  palette:
+    primary: blue grey
+    accent: blue grey
 
 nav:
   - Home: index.md
