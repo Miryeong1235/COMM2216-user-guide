@@ -71,6 +71,8 @@ Open a new query tab by clicking "File" > "New Query Tab"
 
 1. Click the left thunder icon to run the query.
 
+    You will see the result in the result grid.</br>
+<img src="../img/all_dogs.png" width="80%">
 
 
 ### Extracting male dogs born before 2020
@@ -87,6 +89,9 @@ Open a new query tab by clicking "File" > "New Query Tab"
 
 1. Click the left thunder icon to run the query.
 
+    You will see the result in the result grid.</br>
+<img src="../img/male_dogs.png" width="60%">
+
 ### Getting the number of trainers grouped by their specialization
 
 1. Copy and paste the sample query.
@@ -100,6 +105,10 @@ Open a new query tab by clicking "File" > "New Query Tab"
 
 1. Click the left thunder icon to run the query.
 
+    You will see the result in the result grid.</br>
+<img src="../img/trainer_specialization.png" width="50%">
+
+
 ### Getting the combination of dogs and owners
 1. Copy and paste the sample query.
 
@@ -111,6 +120,9 @@ Open a new query tab by clicking "File" > "New Query Tab"
         ```
 
 1. Click the left thunder icon to run the query.
+
+    You will see the result in the result grid.</br>
+<img src="../img/dog_owner.png" width="40%">
 
 ## Conclusion
 Now you can retrieve information from tables with SELECT statements.
