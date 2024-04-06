@@ -41,6 +41,6 @@ If you do not have a connection shown on your Welcome page, follow the steps to 
 1. Close the popup window.<br/>
 <img src="../img/popup_close.png" width="80%">
 
-!!! success
+## Conclusion
 
-    Now you successfully created a schema with a name you set. You can find your schema on schemas tab in the left column of MySQL workbench.
+Now you successfully created a schema with a name you set. You can find your schema on schemas tab in the left column of MySQL workbench.

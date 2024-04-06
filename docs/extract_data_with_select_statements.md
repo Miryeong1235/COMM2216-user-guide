@@ -52,7 +52,7 @@ FROM table1;
 
 ## Preparation
 
-1. Open a new query tab by clicking "File" > "New Query Tab"
+Open a new query tab by clicking "File" > "New Query Tab"
 
 !!! success
 
@@ -111,3 +111,6 @@ FROM table1;
         ```
 
 1. Click the left thunder icon to run the query.
+
+## Conclusion
+Now you can retrieve information from tables with SELECT statements.

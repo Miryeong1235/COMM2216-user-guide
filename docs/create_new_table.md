@@ -73,8 +73,8 @@ You should have a schema created by following [the previous section](/docs/creat
         You only have to run the queries once.
 
 
-        You will see the status of queries in Action Output. 
-        Green check marks mean good, yellow triangles mean warning. Red is error.
+    You will see the status of queries in Action Output. 
+    Green check marks mean good, yellow triangles mean warning. Red is error.
 
 
     ![action output](img/action_output.png)
@@ -94,8 +94,7 @@ You should have a schema created by following [the previous section](/docs/creat
 
 1. Write INSERT statement about the data you want to populate.
 
-    !!! info
-        If you want to populate date using sample, you can use the sample query below.
+    If you want to populate date using sample, you can use the sample query below.
 
 
     ??? example "Example code for population"
@@ -159,6 +158,6 @@ You should have a schema created by following [the previous section](/docs/creat
 
 3. Right-click on the schema you created and select "Refresh All" to refresh the schema.
 
-!!! success
+## Conclusion
 
-    Now you successfully created new tables.
+Now you successfully created new tables.

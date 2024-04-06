@@ -18,8 +18,9 @@ For more details, see [here](https://www.oracle.com/ca-en/mysql/what-is-mysql/)
 ## Intended users
 This documentation is targeted towards the following users:
 
-- New BCIT CST Term 2 students who want to start using MySQL.
-- Beginner developers who need to set up a MySQL database for an academic project.
+- New BCIT CST Term 2 students who need to set up a MySQL database for an academic project.
+- Beginner developers who don't have any knowledge about MySQL.
+
 
 ## Software requirements
 Before proceeding, ensure you have following installed.
@@ -42,10 +43,26 @@ The main sections of the documentation are summarized below:
 ## Typographical conventions
 We provide SQL statements in the following code blocks:
 
-??? example "Sample Code"
-    ``` SQL
-    <!-- sample SQL code here -->
-    ```
+- We provide some code snippets for explaining syntax in this format.
+``` sql
+SELECT column1, column2
+FROM table1;
+```
+
+- We provide some sample codes to use in your MySQL in this format.
+
+    !!! example "Sample query"
+        ```
+        SELECT * 
+        FROM Dog;
+        ```
+
+    The sample code is folded when it is long.
+
+    ??? example "Sample Code"
+        ``` SQL
+        <!-- sample SQL code here -->
+        ```
 
 
 ## Notes and warning messages
