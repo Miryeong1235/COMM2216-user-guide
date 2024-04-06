@@ -7,7 +7,7 @@ In this section, you will create a new schema in your local instance. This step 
 1. Open SQL Workbench. 
     
     If MySQL server is already running, then you should see a screen like below.
-    ![welcome normal](../img/welcome_normal.png)
+    <img src="../img/welcome_normal.png" width="85%">
 
 2. Click on the Connection "Local Instance 3306" shown on the Welcome page.
 
@@ -16,10 +16,10 @@ In this section, you will create a new schema in your local instance. This step 
 If you do not have a connection shown on your Welcome page, follow the steps to set a new connection.
 
 1. Press "+" button on Welcome page.
-    ![welcome empty](../img/welcome_empty.png "welcome")
+    <img src="../img/welcome_empty.png" width="85%">
 
-1. Set a Connection Name and Hostname as `localhost` , and click "OK".
-    ![set connection](../img/set_connection.png "set connection")
+1. Set a Connection Name and Hostname as `localhost` , and click "OK".ction")
+    <img src="../img/set_connection.png" width="70%">
 
     !!! info
 
@@ -34,12 +34,12 @@ If you do not have a connection shown on your Welcome page, follow the steps to 
 ## Create a new schema
 1. Click schema icon at the upper left corner of the window.
 1. Set schema name at Schema Editor and click "Apply".
-![schema](../img/set_schema.png)
+<img src="../img/set_schema.png" width="85%">
 1. Click "Apply" on the popup window.
-![schema popup](../img/popup.png)
+<img src="../img/popup.png" width="80%">
 
-1. Close the popup window.
-![schema popup2](../img/popup_close.png)
+1. Close the popup window.<br/>
+<img src="../img/popup_close.png" width="80%">
 
 !!! success
 
