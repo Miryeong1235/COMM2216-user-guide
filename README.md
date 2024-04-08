@@ -41,6 +41,24 @@ We were not familiar to using Markdown. We acquired the ability to style text us
 #### Readability
 <!-- write later -->
 
+    !!! warning
+
+        Specifies content that must be read before proceeding. 
+
+    !!! info
+
+        Indicated additional information or tips.
+
+    !!! success
+
+        Indicated what success looks like.
+
+    !!! example "Sample query"
+        ```
+        SELECT * 
+        FROM Dog;
+        ```
+
 #### Chunking
 <!-- write later -->
 
@@ -52,5 +70,8 @@ We were not familiar to using Markdown. We acquired the ability to style text us
 ## Conclusion
 <!-- write later -->
 
+
+
+Thank you for your interest in our MySQL User Documentation. We believe that this documentation will be a valuable resource for our readers in their future projects.
 
 This document was built on: [Material for MkDocs](https://github.com/squidfunk/mkdocs-material)
