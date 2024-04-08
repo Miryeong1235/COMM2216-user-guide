@@ -18,12 +18,39 @@ We used Git and GitHub to collaborate on the documentation. We began by assignin
 
 
 ## How We Created Our Guide
+<!-- write later -->
+
 ### Using MkDocs
+
+We decided to use MkDocs as our static site generator due to its visually appealing [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) theme and the comprehensive components offered by MkDocs.
+
+
 ### Using Markdown
+
+We were not familiar to using Markdown. We acquired the ability to style text using Markdown through our COMM 2116 Business Communications 2 course, and developed our skills throughout the process of writing this documentation.
+
+
 ### Using VS Code
+<!-- write later -->
+
+
 ### Learning best practices for web writing
+<!-- write later -->
+
+
 #### Readability
+<!-- write later -->
+
 #### Chunking
+<!-- write later -->
+
+
 #### Tone
+<!-- write later -->
+
 
 ## Conclusion
+<!-- write later -->
+
+
+This document was built on: [Material for MkDocs](https://github.com/squidfunk/mkdocs-material)
