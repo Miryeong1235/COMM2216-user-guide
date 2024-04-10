@@ -79,6 +79,9 @@ You should have a schema created by following [the previous section](create_new_
 
     ![action output](img/action_output.png)
 
+    !!! info
+        If you don't see the action output, click the middle button on the upper right corner of window. <br>
+        ![a](img/show_acition_output.png)
 
 6. Right-click on the schema you created and select "Refresh All" to refresh the schema.</br>
 <img src="../img/refresh_all.png" width="30%">
