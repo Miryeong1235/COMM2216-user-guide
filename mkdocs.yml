@@ -15,6 +15,7 @@ nav:
   - Create a new schema: create_new_schema.md
   - Create sample tables: create_new_table.md
   - Retrieve information from tables: retrieve_information_from_tables.md
+  - Basic SQL syntax: sql_syntax.md
   - Troubleshooting: troubleshooting.md
   - Glossary: glossary.md
 
