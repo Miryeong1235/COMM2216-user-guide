@@ -4,6 +4,8 @@ theme:
   features:
       - toc.integrate
       - content.code.copy
+      - navigation.footer
+    
   palette:
     primary: blue grey
     accent: blue grey
@@ -16,6 +18,10 @@ nav:
   - Troubleshooting: troubleshooting.md
   - Glossary: glossary.md
 
+# Plugins
+plugins:
+  - search:
+      lang: en
 
 extra:
   social:
