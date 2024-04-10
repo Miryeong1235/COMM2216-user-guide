@@ -62,8 +62,9 @@ You should have a schema created by following [the previous section](create_new_
         );
         ```
 
-    If you want to use your own SQL file, click the SQL file button from the task bar.</br>
-<img src="../img/import_SQLfile.png" width="50%">
+    !!! info
+        If you want to use your own SQL file, click the SQL file button from the task bar.</br>
+        <img src="../img/import_SQLfile.png" width="50%">
 
 
 
