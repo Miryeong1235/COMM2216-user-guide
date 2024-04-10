@@ -17,7 +17,7 @@ We maintained regular in-person meetings to ensure alignment and mutual understa
 We used Git and GitHub to collaborate on the documentation. We began by assigning tasks, and upon completing the initial draft, we provided feedback to one another, making adjustments to enhance readability and design.
 
 
-## How We Created Our Guide
+## How we created our guide
 
 Our guide was created based on our expertise gained from setting up and utilizing MySQL in COMP 2714 Relational Database Systems. 
 We supplemented our experiential knowledge with references from the official MySQL documentation and setup instructions provided by the course instructor. 
@@ -36,7 +36,8 @@ We were not familiar to using Markdown. We acquired the ability to style text us
 
 ### Using VS Code
 
-We both utilized VS Code for writing our markdown files. To ensure accurate rendering of our styles, we previewed our guide by serving it with MkDocs when necessary.
+We both utilized VS Code for writing our markdown files. 
+To ensure accurate rendering of our styles, we previewed our guide by serving it with MkDocs when necessary.
 
 
 ### Learning best practices for web writing

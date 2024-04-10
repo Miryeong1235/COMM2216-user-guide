@@ -1,11 +1,11 @@
-# Create test tables
+# Create sample tables
 
 ## Overview
 In this section, you will create new tables in your local instance. You can also populate sample data to the tables.
 This step takes only a few minutes.
 
 ## Before starting
-You should have a schema created by following [the previous section](/docs/create_new_schema.md).
+You should have a schema created by following [the previous section](create_new_schema.md).
 
 
 ## Create new tables
@@ -79,6 +79,9 @@ You should have a schema created by following [the previous section](/docs/creat
 
     ![action output](img/action_output.png)
 
+    !!! info
+        If you don't see the action output, click the middle button on the upper right corner of window. <br>
+        ![a](img/show_acition_output.png)
 
 6. Right-click on the schema you created and select "Refresh All" to refresh the schema.</br>
 <img src="../img/refresh_all.png" width="30%">
@@ -88,13 +91,14 @@ You should have a schema created by following [the previous section](/docs/creat
 
 8. Close the editor tab where you wrote the queries.
 
+    If the pop up window asks you if you want to save, you can click "**Don't save**".
 
 
 ## Populate sample data
 
 1. Write INSERT statement about the data you want to populate.
 
-    If you want to populate date using sample, you can use the sample query below.
+    If you want to populate data using sample, you can use the sample query below.
 
 
     ??? example "Example code for population"

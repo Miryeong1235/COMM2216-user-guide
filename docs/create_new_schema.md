@@ -18,7 +18,7 @@ If you do not have a connection shown on your Welcome page, follow the steps to 
 1. Press "+" button on Welcome page.
     <img src="../img/welcome_empty.png" width="85%">
 
-1. Set a Connection Name and Hostname as `localhost` , and click "OK".ction")
+1. Set **Connection Name** and **Hostname** as `localhost` , and click "OK".
     <img src="../img/set_connection.png" width="70%">
 
     !!! info
