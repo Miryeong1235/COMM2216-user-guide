@@ -94,7 +94,7 @@ You should have a schema created by following [the previous section](/docs/creat
 
 1. Write INSERT statement about the data you want to populate.
 
-    If you want to populate date using sample, you can use the sample query below.
+    If you want to populate data using sample, you can use the sample query below.
 
 
     ??? example "Example code for population"

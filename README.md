@@ -36,7 +36,8 @@ We were not familiar to using Markdown. We acquired the ability to style text us
 
 ### Using VS Code
 
-We both utilized VS Code for writing our markdown files. To ensure accurate rendering of our styles, we previewed our guide by serving it with MkDocs when necessary.
+We both utilized VS Code for writing our markdown files. 
+To ensure accurate rendering of our styles, we previewed our guide by serving it with MkDocs when necessary.
 
 
 ### Learning best practices for web writing
