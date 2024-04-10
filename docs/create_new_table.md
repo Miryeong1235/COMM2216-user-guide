@@ -5,7 +5,7 @@ In this section, you will create new tables in your local instance. You can also
 This step takes only a few minutes.
 
 ## Before starting
-You should have a schema created by following [the previous section](/docs/create_new_schema.md).
+You should have a schema created by following [the previous section](create_new_schema.md).
 
 
 ## Create new tables

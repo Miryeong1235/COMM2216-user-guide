@@ -12,7 +12,7 @@ This documentation guides you setting up your MySQL schema. We are going to expl
 A relational database stores data in separate tables rather than putting all the data in one big storeroom. The database structure is organized into physical files optimized for speed. 
 MySQL powers many most accessed applications, including Facebook, Twitter, Netflix, Uber, Airbnb, Shopify, and Booking.com. 
 
-For more details, see [here](https://www.oracle.com/ca-en/mysql/what-is-mysql/)
+For more details, see [Oracle official website](https://www.oracle.com/ca-en/mysql/what-is-mysql/).
 
 
 ## Intended users
