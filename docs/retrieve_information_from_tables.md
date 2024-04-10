@@ -12,8 +12,6 @@ With SELECT statements, you can do the following:
 We will cover these operations with sample queries.
 
 
-<<<<<<< HEAD
-=======
 We will introduce the basic syntax for SELECT statements needed for data extraction. For more information, you can refer to [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html){target="-black"}.
 
 ### Selecting columns
@@ -50,7 +48,6 @@ For aggregation, you can use aggregation functions such as `SUM()` for calculati
 SELECT SUM(column1), COUNT(column1)
 FROM table1;
 ```
->>>>>>> 15d8dc341fdf4eb53aea82a2441a7e71bd406ca2
 
 ## Preparation
 
