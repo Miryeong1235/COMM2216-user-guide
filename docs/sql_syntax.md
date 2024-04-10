@@ -1,4 +1,4 @@
-# Basic syntax
+# Basic SQL syntax
 
 We will introduce the basic syntax for SELECT statements needed for data extraction. For more information, you can refer to [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html).
 

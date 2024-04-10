@@ -13,7 +13,7 @@ In this section, you will create a new schema in your local instance. This step 
 
 
 ## Set up a new connection (optional)
-If you do not have a connection shown on your Welcome page, follow the steps to set a new connection.
+If you **do not** have a connection shown on your Welcome page, follow the steps to set a new connection.
 
 1. Press "+" button on Welcome page.
     <img src="../img/welcome_empty.png" width="85%">

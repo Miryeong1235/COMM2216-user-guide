@@ -38,7 +38,7 @@ The main sections of the documentation are summarized below:
 
 1. Create a new schema
 1. Create test tables
-1. Extract data with SELECT statements
+1. Retrieve information from tables
 
 ## Typographical conventions
 We provide SQL statements in the following code blocks:
