@@ -18,12 +18,9 @@ You should have a schema created by following [the previous section](create_new_
         If you don't do this, you might mistakenly run queries on the wrong schema!
         
 2. Click "File" > "New Query tab" to open a new query tab.
-3. Write queries to create tables on the editor. If you want to use SQL file, click the SQL file button from the task bar.</br>
-<img src="../img/import_SQLfile.png" width="50%">
-
-1. Write queries to create constraints on the editor.
-
-    If you want to crete test tables, you can use the sample query below.
+3. Write queries to create tables on the editor. 
+    
+    You can use the sample query below to create sample tables.
 
 
     ??? example "Example code for tables"
@@ -64,6 +61,11 @@ You should have a schema created by following [the previous section](create_new_
         FOREIGN KEY (trainerID) REFERENCES Trainer(trainerID)
         );
         ```
+
+    If you want to use your own SQL file, click the SQL file button from the task bar.</br>
+<img src="../img/import_SQLfile.png" width="50%">
+
+
 
 5. Click a left thunder icon to run the queries.
 ![run queries](img/run_query.png)
