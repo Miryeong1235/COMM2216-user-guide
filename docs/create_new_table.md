@@ -1,4 +1,4 @@
-# Create test tables
+# Create sample tables
 
 ## Overview
 In this section, you will create new tables in your local instance. You can also populate sample data to the tables.
@@ -88,6 +88,7 @@ You should have a schema created by following [the previous section](create_new_
 
 8. Close the editor tab where you wrote the queries.
 
+    If the pop up window asks you if you want to save, you can click "**Don't save**".
 
 
 ## Populate sample data
