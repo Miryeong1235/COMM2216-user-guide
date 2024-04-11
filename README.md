@@ -11,7 +11,7 @@ In the documentation, we explained
 We also provide sample SQL statements, so that readers can use MySQL by themselves and run queries without any prior knowledge.
 
 We created this user documentation by using Mkdocs, Markdown, and Visual Studio Code.
-You can see deployed [our user guide](https://miryeong1235.github.io/COMM2216-user-guide/)
+You can see deployed [our user guide](https://miryeong1235.github.io/COMM2216-user-guide/).
 
 
 ## How we collaborated together
@@ -53,11 +53,11 @@ We covered both of instructions and web writing in this project. We learned the 
 ### Best practices for web writing
 - We should use headings effectively. Web users typically scan information as they scroll. By providing relevant and informative headings, readers can find the information they need without having to read carefully.
 - To enhance readability, we should utilize visual elements such as callouts and code blocks. These components help readers quickly understand the type of information being provided.
-- We should strive to keep our sentences concise and use simple language.　Avoiding the use of complex words or expressions ensures that readers can understand the instructions or explanations with just one read.
+- We should strive to keep our sentences concise and use simple language. Avoiding the use of complex words or expressions ensures that readers can understand the instructions or explanations with just one read.
 
 
 ## Conclusion
-Through this project, we have not only conveyed how to set up MySQL to our intended readers but also deepened our understanding of instruction writing. We have learned the essence of writing effective instructions that enable readers to take the correct actions. Additionally, this project has facilitated our technical growth in creating online documents using MkDocs.
+Through this project, we have not only conveyed how to set up MySQL to our intended readers but also deepened our understanding of writing instruction. We have learned the essence of writing effective instructions that enable readers to take the correct actions. Additionally, this project has facilitated our technical growth in creating online documents using MkDocs.
 
 We believe our documentation skills have improved through learning theory and practice.
 
