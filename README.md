@@ -1,6 +1,6 @@
 # Overview of MySQL user documentation
 
-## What is this user documentation?
+## About this user documentation
 This documentation guides readers setting up their MySQL schema. We created this documentation in COMM　2522 Business Communication 2.
 
 In the documentation, we explained
@@ -10,7 +10,7 @@ In the documentation, we explained
 
 We also provide sample SQL statements, so that readers can use MySQL by themselves and run queries without any prior knowledge.
 
-We created this user documentation by using Mkdocs, Markdown, and Visual Studio Code.
+We created this user documentation by using MkDocs, Markdown, and Visual Studio Code.
 You can see deployed [our user guide](https://miryeong1235.github.io/COMM2216-user-guide/).
 
 
@@ -52,7 +52,7 @@ We covered both of instructions and web writing in this project. We learned the 
 
 ### Best practices for web writing
 - We should use headings effectively. Web users typically scan information as they scroll. By providing relevant and informative headings, readers can find the information they need without having to read carefully.
-- To enhance readability, we should utilize visual elements such as callouts and code blocks. These components help readers quickly understand the type of information being provided.
+- To enhance readability, we should utilize visual elements such as admonitions and code blocks. These components help readers quickly understand the type of information being provided.
 - We should strive to keep our sentences concise and use simple language. Avoiding the use of complex words or expressions ensures that readers can understand the instructions or explanations with just one read.
 
 
