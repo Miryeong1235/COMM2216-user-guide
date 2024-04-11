@@ -167,4 +167,8 @@ You should have a schema created by following [the previous section](create_new_
 
 ## Conclusion
 
-Now you successfully created new tables.
+By the end of this section, you will have successfully learned the following:
+
+- [x] How to set a default schema in MySQL
+- [x] How to open a query editor
+- [x] How to create tables with SQL statements
