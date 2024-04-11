@@ -13,7 +13,7 @@ We will cover these operations with sample queries.
 
 
 We will introduce the basic syntax for `SELECT` statements needed for data extraction in [Basic SQL syntax page](sql_syntax.md). 
-Additionally, you can refer to [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html){target="-blank"} for more information.
+Additionally, you can refer to [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html){:target="_blank"} for more information.
 
 ## Preparation
 
@@ -98,4 +98,4 @@ By the end of this section, you will have successfully experienced the following
 - [x] How to group data with `GROUP BY` clauses
 - [x] How to get data from multiple tables with `JOIN` clauses
 
-If you want to learn SQL syntax, visit our [Basic SQL syntax page](sql_syntax.md) or [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html){target="-blank"} for more information.
+If you want to learn SQL syntax, visit our [Basic SQL syntax page](sql_syntax.md) or [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html){:target="_blank"} for more information.
