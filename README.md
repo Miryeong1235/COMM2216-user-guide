@@ -1,7 +1,7 @@
 # Overview of MySQL user documentation
 
 ## What is this user documentation?
-This documentation guides readers setting up their MySQL schema. We created this documentation in COMM　2522 Business Communication2.
+This documentation guides readers setting up their MySQL schema. We created this documentation in COMM　2522 Business Communication 2.
 
 In the documentation, we explained
 - how to create a schema
@@ -9,6 +9,7 @@ In the documentation, we explained
 - how to write SELECT statements to retrieve information from tables 
 
 We also provide sample SQL statements, so that readers can use MySQL by themselves and run queries without any prior knowledge.
+
 We created this user documentation by using Mkdocs, Markdown, and Visual Studio Code.
 You can see deployed [our user guide](https://miryeong1235.github.io/COMM2216-user-guide/)
 
@@ -21,9 +22,9 @@ We used Git and GitHub to collaborate on the documentation. We began by assignin
 
 ## How we created our guide
 
-Our guide was created based on our expertise gained from setting up and utilizing MySQL in our course COMP 2714 Relational Database Systems. 
-We supplemented our experiential knowledge with references from the official MySQL documentation and setup instructions provided by the course instructor. 
-Reflecting on the challenges we encountered during MySQL setup for the lecture, we ensured our instructions remained clear, comprehensive, and concise.
+Our guide was created based on our expertise gained from setting up and utilizing MySQL in our course COMP 2714 Relational Database Systems. We supplemented our experiential knowledge with references from the official MySQL documentation and setup instructions provided by the course instructor. 
+
+We used the following tools to develop the website and collaborate with a partner.
 
 ### MkDocs
 
