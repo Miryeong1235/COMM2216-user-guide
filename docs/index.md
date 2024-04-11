@@ -3,7 +3,7 @@
 ## Introduction
 
 Hello👋
-This documentation guides you setting up your MySQL schema. We are going to explain how to create a schema, how to create test tables, and how to write SELECT statements to retrieve information from tables. We also provide sample SQL statements, so you can use MySQL by yourself and run queries without any prior knowledge.
+This documentation guides you setting up your MySQL schema. We are going to explain how to create a schema, how to create test tables, and how to write `SELECT` statements to retrieve information from tables. We also provide sample SQL statements, so you can use MySQL by yourself and run queries without any prior knowledge.
 
 
 ### About SQL and relational database

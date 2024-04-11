@@ -41,6 +41,12 @@ If you **do not** have a connection shown on your Welcome page, follow the steps
 1. Close the popup window.<br/>
 <img src="../img/popup_close.png" width="80%">
 
+!!! success
+    You can find your schema on schemas tab in the left column of MySQL workbench.
+
 ## Conclusion
 
-Now you successfully created a schema with a name you set. You can find your schema on schemas tab in the left column of MySQL workbench.
+By the end of this section, you will have successfully learned the following:
+
+- [x] How to create a connection in your local instance in MySQL
+- [x] How to create a new schema

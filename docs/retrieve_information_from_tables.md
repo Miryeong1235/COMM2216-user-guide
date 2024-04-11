@@ -1,8 +1,8 @@
 # Retrieve information from tables
 
 ## Overview
-In this section, you will extract data with SELECT statements. A SELECT statement is a SQL query used to extract information from tables. 
-With SELECT statements, you can do the following:
+In this section, you will extract data with `SELECT` statements. A `SELECT` statement is a SQL query used to extract information from tables. 
+With `SELECT` statements, you can do the following:
 
 - filter data with certain conditions
 - sort data by certain attributes
@@ -12,42 +12,8 @@ With SELECT statements, you can do the following:
 We will cover these operations with sample queries.
 
 
-We will introduce the basic syntax for SELECT statements needed for data extraction. For more information, you can refer to [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html){target="-blank"}.
-
-### Selecting columns
-
-In SELECT statements, you can select columns to be shown in the result by listing the column name. The result of the query below only shows column1 and column2 for all data in table1. If you want to show all columns, use `*` instead of the column names.
-
-``` sql
-SELECT column1, column2
-FROM table1;
-```
-
-### Adding conditions
-
-In SELECT statements, you can add conditions with `WHERE` clause. The result of the query below shows only data with a value 1 in column1.
-
-``` sql
-SELECT * 
-FROM table1 
-WHERE column1 = 1;
-```
-
-### Sorting
-In SELECT statements, you can sort the result with `ORDER BY` clause.shows data in table1 in an ascending order by column1. If you want to sort the result with a descending order, add `DESC` after `ORDER BY` clause like `ORDER BY column1 DESC`.
-
-``` sql
-SELECT * 
-FROM table1 
-ORDER BY column1;
-```
-
-### Aggregation
-For aggregation, you can use aggregation functions such as `SUM()` for calculating a total value, `COUNT()` for counting the number of rows, `AVG()` for calculating an average value. This query below returns the number of rows and the total added value of column1.
-``` sql
-SELECT SUM(column1), COUNT(column1)
-FROM table1;
-```
+We will introduce the basic syntax for `SELECT` statements needed for data extraction in [Basic SQL syntax page](sql_syntax.md). 
+Additionally, you can refer to [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html){target="-blank"} for more information.
 
 ## Preparation
 
@@ -124,4 +90,12 @@ Open a new query tab by clicking "File" > "New Query Tab"
 <img src="../img/dog_owner.png" width="40%">
 
 ## Conclusion
-Now you can retrieve information from tables with SELECT statements.
+
+By the end of this section, you will have successfully experienced the following:
+
+- [x] How to retrieve information from tables with `SELECT` statements
+- [x] How to filter data with `WHERE` clauses
+- [x] How to group data with `GROUP BY` clauses
+- [x] How to get data from multiple tables with `JOIN` clauses
+
+If you want to learn SQL syntax, visit our [Basic SQL syntax page](sql_syntax.md) or [MySQL official documentation](https://dev.mysql.com/doc/refman/8.0/en/select.html){target="-blank"} for more information.
