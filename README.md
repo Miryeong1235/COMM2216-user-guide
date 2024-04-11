@@ -10,7 +10,7 @@ In the documentation, we explained
 
 We also provide sample SQL statements, so that readers can use MySQL by themselves and run queries without any prior knowledge.
 We created this user documentation by using Mkdocs, Markdown, and Visual Studio Code.
-You can see deployed [our user guide](https://miryeong1235.github.io/COMM2216-user-guide/){target="_blank"}
+You can see deployed [our user guide](https://miryeong1235.github.io/COMM2216-user-guide/){:target="_blank"}
 
 
 ## How we collaborated together
